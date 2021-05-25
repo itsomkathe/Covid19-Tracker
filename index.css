@@ -1,0 +1,117 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        background-color: #0F0F0F;
+        color: whitesmoke;
+}
+
+.formdiv{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5rem;
+}
+
+#myform{
+        margin-top: 5rem;
+        display: flex;
+}
+
+#country{
+        outline: none;
+        border: none;
+        color: whitesmoke;
+        background-color: #414141;
+        width: 30rem;
+        height: 2rem;
+        border-radius: 0.8rem;
+        padding-left: 1rem;
+        
+}
+
+#submitbutton{
+        outline: none;
+        border: none;
+        height: 2rem;
+        margin-left: 2rem;
+        background-color: rgb(0, 110, 255);
+        width: 10rem;
+        cursor: pointer;
+        border-radius: 0.8rem;
+}
+
+#submitbutton:hover{
+        background-color: #414141;
+        transition: 0.2s ease-in;
+}
+
+.container{
+        display: flex;
+        justify-content: space-evenly;
+}
+
+
+.container section{
+        text-align: center;
+}
+section{
+        width: 15rem;
+        
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 2rem;
+}
+
+section *{
+        background-color: red;
+}
+section p{
+        font-size: 1.5rem;
+        background-color: transparent;
+}
+
+section div{
+        margin-top: 2rem;
+        font-size: 3rem;
+        background-color: transparent;
+}
+.box1{
+        background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+}
+
+.box2{
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+}
+
+.box3{
+        background-image: radial-gradient( circle 300px at 8% 89.3%,  rgba(20,157,208,1) 0%, rgba(140,63,226,1) 90% );
+}
+
+.box4{
+        background-image: linear-gradient( 102.1deg,  rgba(96,221,142,1) 8.7%, rgba(24,138,141,1) 88.1% );
+}
+
+@media all and (max-width: 1108px){
+        .container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .container section{
+                margin-bottom: 3rem;
+        }
+        #myform{
+                width: 90vw;
+                margin-left: 1vw;
+                margin-right: 1vw;
+                justify-content: center;
+        }
+
+}
+
+
+
+

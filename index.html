@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <title>Covid19 Tracker</title>
+</head>
+<body>
+        <div class = "formdiv">
+                <form id="myform">
+                        <input autocomplete="off" type = "text", id="country", placeholder="Add a Country">
+                        <input id = "submitbutton" type="submit", value="Get Data">
+                </form>
+        </div>
+        
+        <div id="match"></div>
+
+        <div class="container">
+                <section class = "box1">
+                        <p>Cases Today</p>
+                        <div id="casesToday">N/A</div>
+                </section>
+                <section class="box2">
+                        <p>Deaths Today</p>
+                        <div id = "deathsToday">N/A</div>
+                </section>
+                <section class="box3">
+                        <p>Active Cases</p>
+                        <div id = "activeCases">N/A</div>
+                </section>
+                <section class="box4">
+                        <p>Recovered Today</p>
+                        <div id = "recoveredCases">N/A</div>
+                </section>
+        </div>
+        
+        <script src="index.js"></script>
+</body>
+</html>
